@@ -1,0 +1,43 @@
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: 'Times New Roman', Times, serif; /* this should be the rest of the output you got from Google Fonts */
+    background-color: #333;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+#namelabel {
+    float: left;
+    margin: 0px 0px 0px 10px;
+    font-weight: bold;
+}
+  
+  
+li:last-child {
+    border-right: none;
+  }
+
+a {
+    display: block;
+    color: #6082B6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+li a:hover:not(.active) {
+    color: #5A4FCF;
+  }
+  
+#imagelabel {
+    width: 5%;
+    float: left;
+    margin: 0px 0px 0px 100px;
+}
