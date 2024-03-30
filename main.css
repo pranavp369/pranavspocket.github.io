@@ -4,7 +4,9 @@ html {
     background-color: #333;
   }
 
+
 ul {
+    position: relative;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -23,7 +25,8 @@ li:last-child {
     border-right: none;
   }
 
-a {
+.navbar {
+    position: relative;
     display: block;
     color: #6082B6;
     text-align: center;
@@ -40,4 +43,39 @@ li a:hover:not(.active) {
     width: 5%;
     float: left;
     margin: 0px 0px 0px 100px;
+}
+
+
+#Profileimage {
+    position: relative;
+    top: 100px; left: 600px;
+    width: 35%;
+  }
+  
+#image {
+    display: inline-block;
+    height: auto;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 50%;
+  }
+
+#intro {
+    color: #6082B6;
+    width: 500px;
+    position: relative;
+    font-size: 20px;
+    top: 30px; left: 380px;
+    margin: 100px 50px 50px 100px;
+    text-align: center;
+  }
+
+.icons {
+    display: block;
+    position: relative;
+    filter: invert(100%);
+    top: 0px; left: 635px;
+    width: 3%;
+    float: left;
+    margin: 0px 5px 0px 10px;
 }
